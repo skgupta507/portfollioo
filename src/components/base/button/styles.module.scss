@@ -1,0 +1,50 @@
+@import "@components/variables.scss";
+
+.container {
+	background-color: #f05bed;
+	padding: .8rem 1.4rem;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	transition: .15s;
+	
+	&:is(:active, :hover):not(.disabled) {
+		opacity: .5;
+		scale: .975;
+	}
+
+	&.disabled {
+		background-color: #bd5dbb;
+		opacity: .75;
+	}
+}
+
+.content {
+	display: inline-flex;
+	gap: 1.35rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.label {
+	color: black;
+	font-size: 1.1em;
+	font-family: $button-font;
+	font-weight: 500;
+}
+
+.icon {
+	height: 1.8rem;
+	aspect-ratio: 1;
+	vertical-align: middle;
+	object-fit: contain;
+	margin-left: -.6rem;
+	margin-right: -1rem;
+	margin-block: -99rem;
+}
+
+@include mobile {
+	.container {
+		padding-block: .85rem;
+	}
+}

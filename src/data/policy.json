@@ -1,0 +1,23 @@
+{
+	"privacy": {
+		"lastUpdated": "2023-04-20",
+		"title": "policy.privacy.title",
+		"data": [
+			"policy.privacy.fields.collect",
+			"policy.privacy.fields.share",
+			"policy.privacy.fields.use",
+			"policy.privacy.fields.security",
+			"policy.privacy.fields.rights",
+			"policy.privacy.fields.dont",
+			"policy.privacy.fields.changes"
+		]
+	},
+	
+	"terms": {
+		"lastUpdated": "2023-04-20",
+		"title": "policy.terms.title",
+		"data": [
+			"Under the maintaince."
+		]
+	}
+}

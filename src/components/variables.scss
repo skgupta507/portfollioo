@@ -1,0 +1,62 @@
+@font-face {
+	font-family: "GeistRegular";
+	font-style: normal;
+	font-display: swap;
+
+	src: local("sans-serif"), 
+		url("/font/Geist-Regular.otf") format("opentype"), 
+		url("/font/Geist-Regular.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "GeistBold";
+	font-style: normal;
+	font-display: swap;
+
+	src: local("sans-serif"), 
+		url("/font/Geist-Bold.otf") format("opentype"), 
+		url("/font/Geist-Bold.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "GeistMedium";
+	font-style: normal;
+	font-display: swap;
+
+	src: local("sans-serif"), 
+		url("/font/Geist-Medium.otf") format("opentype"), 
+		url("/font/Geist-Medium.woff2") format("woff2");
+}
+
+@mixin desktop {
+	@media (min-width: ($responsibilityBreakpoint - 200)), (orientation: landscape) {
+		@content;
+	}
+}
+
+@mixin mobile {
+	@media (max-width: ($responsibilityBreakpoint - 200)) and (orientation: portrait) {
+		@content;
+	}
+}
+
+$subtitle-font: "GeistRegular", sans-serif;
+$title-font: "GeistBold", sans-serif;
+$description-font: "GeistRegular", sans-serif;
+$button-font: "GeistMedium", sans-serif;
+
+$description-color: #eedefa;
+
+$primary: #da33ff;
+$primarySurface: hsl(290, 100%, 55%);
+$light: #F474FF;
+
+$surface: #140A23;
+$surfaceSmall: hsl(264, 55%, 13%);
+$surfaceActive: #1D112F;
+
+$title: #FFE6FF;
+$background: #11071F;
+
+$responsibilityBreakpoint: 750px;
+$mobilePadding: .5rem;

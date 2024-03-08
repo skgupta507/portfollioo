@@ -1,0 +1,56 @@
+@import "@components/variables";
+
+.screen {
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.content {
+	max-width: $responsibilityBreakpoint;
+	width: 100%;
+	padding-block: 5rem 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 2rem;
+	row-gap: 1.2rem;
+	flex-wrap: wrap;
+}
+
+.title {
+	font-size: 2.5em;
+	font-weight: 600;
+	line-height: 1.4;
+}
+
+.date {
+	font-size: 1.2em;
+	font-weight: 500;
+	line-height: 1.6;
+}
+
+.fields {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.field {
+	line-height: 1.6;
+	font-weight: 400;
+	font-size: 1.1em;
+}
+
+.dot {
+	margin-right: .5em;
+	vertical-align: sub;
+	font-size: 1.5em;
+}

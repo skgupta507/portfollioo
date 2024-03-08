@@ -1,0 +1,168 @@
+{
+	"ru": {
+		"translation": {
+			"no_description": "Описание не было предоставленно.",
+
+			"error": {
+				"invalid_email": "Неправильная Почта!",
+				"short_name": "Слишком короткое Имя!",
+				"short_message": "Сообщение слишком короткое!",
+				"submit_email": "Не удалось отправить письмо!"
+			},
+
+			"home": {
+				"hi": "Привет, я MrBoomDev!",
+				"description": "Мне нравиться создавать стильные и эпичные игры, сайты и приложения для мобильных устройств.",
+				"see_projects": "Мои Проекты",
+				"learn_more": "Узнать Больше"
+			},
+			
+			"skills": {
+				"title": "Мои Навыки",
+				"description": "С данными технологиями я работаю почти постаянно."
+			},
+			
+			"projects": {
+				"title": "Мои Проекты"
+			},
+			
+			"contact": {
+				"title": "Связаться со мной",
+				"description": "Есть вопрос? Напиши мне!",
+				"submit": "Отправить",
+
+				"email": "Ваша Почта",
+				"name": "Ваше Имя",
+				"message": "Ваше сообщение",
+
+				"loading": "Отправляем...",
+				"sent": "Отправлено успешно!"
+			},
+			
+			"footer": {
+				"interesting": "Интересное",
+				"safety": "Безопасность",
+				"social": "Мои Соц-Сети",
+				"made": "Сайт был сделан в 2024 используя React и Github Pages.",
+				"flaticon": "Иконки были созданы",
+				
+				"playlist": "Мой Плейлист",
+				"blog": "Мой Блог"
+			},
+			
+			"navigation": {
+				"home": "Главная",
+				"skills": "Навыки",
+				"projects": "Проекты",
+				"contact": "Связаться"
+			},
+			
+			"policy": {
+				"email": "Если у вас есть какие-либо вопросы, пожалуйста, пишите на этот адрес электронной почты",
+				"updated": "Последнее обновление",
+				"privacy": {
+					"title": "Политика Конфедициальности",
+					"fields": {
+						"collect": "Мы собираем только те данные, которые необходимы для работы нашего приложения, использующего Google API, такие как: ваш адрес электронной почты, IP-адрес, тип устройства и его имя.",
+						"share": "Мы не передаем пользовательские данные третьим лицам без их явного согласия.",
+						"use": "Мы используем эти данные только для улучшения взаимодействия с пользователем и функционирования нашего приложения.",
+						"security": "Мы обеспечиваем безопасность данных пользователей и принимаем все меры для защиты их конфиденциальности.",
+						"rights": "Пользователи имеют право доступа, изменения и удаления своих персональных данных.",
+						"dont": "Мы не собираем данные о личных предпочтениях, политических или религиозных взглядах пользователей.",
+						"changes": "Мы будем информировать пользователей о любых изменениях в политике конфиденциальности и получать их согласие на эти изменения."
+					}
+				},
+				
+				"terms": {
+					"title": "Пользовательское Соглашение"
+				}
+			}
+		}
+	},
+	
+	"en": {
+		"translation": {
+			"no_description": "No description were provided",
+
+			"error": {
+				"invalid_email": "Invalid email!",
+				"short_name": "Name is too short!",
+				"short_message": "Messsage is too short!",
+				"submit_email": "Failed to send an email!"
+			},
+
+			"home": {
+				"hi": "Hey, I'm MrBoomDev!",
+				"description": "I like to create stylish and epic games, websites and apps for mobile devices.",
+				"see_projects": "See Projects",
+				"learn_more": "Learn More"
+			},
+			
+			"skills": {
+				"title": "My Skills",
+				"description": ""
+			},
+			
+			"projects": {
+				"title": "My Projects",
+
+				"binacty": {
+					"description": "Binacty is a free game engine that allows you to bring your ideas to reality in just minutes! The internal editor allows you to start creating your own games right from your mobile device."
+				}
+			},
+			
+			"contact": {
+				"title": "Contact Me",
+				"description": "Have any questions? I'll read it!",
+				"submit": "Submit Email",
+
+				"email": "Your Email",
+				"name": "Your Name",
+				"message": "Your Message",
+
+				"loading": "Loading...",
+				"sent": "Sent successfully!"
+			},
+			
+			"footer": {
+				"interesting": "Interesting",
+				"safety": "Your Safety",
+				"social": "Social Media",
+				"made": "Site was made in 2024 by using React and Github Pages.",
+				"flaticon": "Icons were made by",
+				
+				"playlist": "My Playlist",
+				"blog": "My Blog"
+			},
+			
+			"navigation": {
+				"home": "Home",
+				"skills": "Skills",
+				"projects": "Projects",
+				"contact": "Contact"
+			},
+			
+			"policy": {
+				"email": "If you have any questions, please write to this email",
+				"updated": "Last updated",
+
+				"privacy": {
+					"title": "Privacy Policy",
+					"fields": {
+						"collect": "We only collect the data necessary for the functioning of our application, which uses Google API, such as: your email address, ip address, device type and it's name.",
+						"share": "We do not share user data with third parties without their explicit consent.",
+						"use": "We use this data only to improve the user experience and the functioning of our application.",
+						"security": "We ensure the security of user data and take all measures to protect their confidentiality.",
+						"rights": "Users have the right to access, modify, and delete their personal data.",
+						"dont": "We do not collect data on users' personal preferences, political or religious views.",
+						"changes": "We will inform users of any changes to the privacy policy and obtain their consent for these changes."
+					}
+				},
+				
+				"terms": {
+					"title": "Terms of Use"
+				}
+			}
+		}
+	}
+}
