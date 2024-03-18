@@ -38,7 +38,7 @@ export default function Header({children}: {children?: JSX.Element | JSX.Element
 		<div className={styles.container + ` ${isScrolled ? styles.active : ""} ${isHidden ? styles.hidden : ""}`}>
 			<div className={styles.content}>
 				<Link to="/" onClick={scrollToTop}>
-					<h1 className={styles.logo}>MrBoomDev</h1>
+					<h1 className={styles.logo}>Sunil Gupta</h1>
 				</Link>
 				
 				<span style={{flexGrow: 1}} />
