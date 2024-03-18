@@ -31,7 +31,7 @@ export default function PolicyPage({data: {data, title, lastUpdated}}: PageArgum
 					})}
 					
 					<p style={{marginTop: "1rem"}} className={styles.field}>{t("policy.email")}:
-						<a href="mailto:contact@mrboomdev.ru" target="_blank"> contact@mrboomdev.ru</a>
+						<a href="mailto:sunil@demonking.pp.ua" target="_blank"> sunil@demonking.pp.ua</a>
 					</p>
 				</div>
 			</div>
